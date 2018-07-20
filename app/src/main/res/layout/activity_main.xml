@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:shrinkColumns="3"
     android:collapseColumns="0,3"
+    android:background="@drawable/bg2"
     tools:context="com.example.alice.tablelayout.MainActivity">
 
     <TableRow>
