@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="input">Large Team</string>
+    <string name="serch">Go</string>
+    <string name="code1">选择</string>
+    <string name="lin">赖冠霖</string>
+    <string name="zha">朴志训</string>
+    <string name="id">ID</string>
+    <string name="name">姓名</string>
+    <string name="email">电子邮箱</string>
+    <string name="address">地址</string>
+    <string name="linb">923</string>
+    <string name="em">18845788065@163.com</string>
+    <string name="t">台北</string>
+</resources>

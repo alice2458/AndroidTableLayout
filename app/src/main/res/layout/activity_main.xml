@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alice.tablelayout.MainActivity">
+
+    <TableRow>
+        <EditText
+            android:id="@+id/myInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/input"/>
+        <Button
+            android:id="@+id/mySerch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/serch"/>
+    </TableRow>
+    <View
+        android:layout_height="2dp"
+        android:background="#0000FF"/>
+    <TableRow>
+        <TextView
+            android:id="@+id/info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/code1"
+            android:textSize="20sp"/>
+        <RadioGroup
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/lin"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lin"/>
+            <RadioButton
+                android:id="@+id/zha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zha"/>
+        </RadioGroup>
+    </TableRow>
+</TableLayout>
